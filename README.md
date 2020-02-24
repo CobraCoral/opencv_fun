@@ -11,5 +11,5 @@
 
 #### This was inspired by the following articles / videos:
 ##### Links
-- https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_transforms/py_fourier_transform/py_fourier_transform.html
-- https://www.youtube.com/watch?v=fRjFwTbJfes
+- [![Watch the video](https://github.com/CobraCoral/opencv_fun/blob/master/pics/thumbnails/youtube_thumbnail.png)](https://www.youtube.com/watch?v=fRjFwTbJfes)
+- [![Fourier Transform in OpenCV](https://github.com/CobraCoral/opencv_fun/blob/master/pics/thumbnails/fourier_transform_thumbnail.png)](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_transforms/py_fourier_transform/py_fourier_transform.html)
