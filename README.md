@@ -3,11 +3,11 @@
 ## Lots of different projects here, for example:
 ### Gray Scale Fourier
 #### Highpass and Lowpass filters using fourier transforms, and OpenCV on grayscale images.
-- ![Preview-Screens](https://github.com/CobraCoral/opencv_fun/pics/results/arnold_highlow.png)
-- ![Preview-Screens](https://github.com/CobraCoral/opencv_fun/pics/results/batman_highlow.png)
-- ![Preview-Screens](https://github.com/CobraCoral/opencv_fun/pics/results/fingerprint_highlow.png)
-- ![Preview-Screens](https://github.com/CobraCoral/opencv_fun/pics/results/flower_highlow.png)
-- ![Preview-Screens](https://github.com/CobraCoral/opencv_fun/pics/results/lady_highlow.png)
+- ![Preview-Screens](https://github.com/CobraCoral/opencv_fun/blob/master/pics/results/arnold_highlow.png)
+- ![Preview-Screens](https://github.com/CobraCoral/opencv_fun/blob/master/pics/results/batman_highlow.png)
+- ![Preview-Screens](https://github.com/CobraCoral/opencv_fun/blob/master/pics/results/fingerprint_highlow.png)
+- ![Preview-Screens](https://github.com/CobraCoral/opencv_fun/blob/master/pics/results/flower_highlow.png)
+- ![Preview-Screens](https://github.com/CobraCoral/opencv_fun/blob/master/pics/results/lady_highlow.png)
 
 #### This was inspired by the following articles / videos:
 ##### Links
