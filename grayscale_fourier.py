@@ -16,6 +16,18 @@ fig, axes = plt.subplots(nrows=3, ncols=3, sharex=True, sharey=True, figsize = (
 
 # Load image
 img = cv2.imread(sys.argv[1], cv2.IMREAD_GRAYSCALE)
+
+# Picture dimensions
+rows, cols = img.shape
+# Get best/optimal picture size to speedup Fourier Transforms by a factor of 4!
+best_rows = cv2.getOptimalDFTSize(rows)
+best_cols = cv2.getOptimalDFTSize(cols)
+# Zero out everything extra we are adding
+nimg = np.zeros((best_rows, best_cols))
+# Replace original with optimal size
+img[:rows,:cols] = img
+
+# Now start
 f = np.fft.fft2(img)
 fshift = np.fft.fftshift(f)
 magnitude_spectrum = 20*np.log(np.abs(fshift))
@@ -28,8 +40,6 @@ plt.title('Magnitude Spectrum', position=(0.3,0.03), color='white'), plt.xticks(
 plt.subplot(333), plt.imshow(img)
 plt.title('JET', position=(0.06,0.03), color='white'), plt.xticks([]), plt.yticks([])
 
-# Picture dimensions
-rows, cols = img.shape
 # Center of picture
 crow, ccol = int(rows/2.0+.5) , int(cols/2.0+.5)
 print('rows [%s], cols[%s], crow[%s], ccol[%s]'%(rows, cols, crow, ccol))
